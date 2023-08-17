@@ -5,8 +5,36 @@ footer {
   line-height: 60px;
   background-color: #f5f5f5;
   margin-top: 50px;
+} 
+.cardContainer {
+  margin-top: 20px;
+}
+.card {
+  margin: 0 auto;
 }
 
-.card {
+.navbar {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
 
+.jumbotron {
+  height: 500px;
+  height: calc(100vh - 25px);
+  background-image: url(../images/rockOn_dark.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.jumboCopy {
+  width: 70%;
+  min-width: 500px;
+  max-width: 700px;
+  color: white;
+  text-align: center;
 }
